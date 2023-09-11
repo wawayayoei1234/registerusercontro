@@ -1,0 +1,64 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .nav {
+    /* background: #a7ffeb; */
+    grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+
+  
+  .content1 {
+    /* background: #6fffd2; */
+    grid-area: content1;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .content2 {
+    /* background: #64ffda; */
+    grid-area: content2;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .content3 {
+    /* background: #73ffba; */
+    grid-area: content3;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  .content4 {
+    /* background: #73ffba; */
+    grid-area: content4;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    -webkit-border-radius: var(--main-radius);
+    -moz-border-radius: var(--main-radius);
+    -ms-border-radius: var(--main-radius);
+    -o-border-radius: var(--main-radius);
+}
+  .content5 {
+    /* background: #73ffba; */
+    grid-area: content5;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    -webkit-border-radius: var(--main-radius);
+    -moz-border-radius: var(--main-radius);
+    -ms-border-radius: var(--main-radius);
+    -o-border-radius: var(--main-radius);
+}
+  
+  .footer {
+    /* background: #1de9b6; */
+    grid-area: footer;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }

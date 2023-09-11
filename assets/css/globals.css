@@ -1,0 +1,176 @@
+body{
+    margin: auto;
+    /* background-color: black; */
+}
+.bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit:cover;
+  z-index: -1;
+}
+.bglogin{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  object-fit:cover;
+  z-index: -1;
+}
+.bgloginmobile{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 50vh;
+  left: 0;
+  object-fit:cover;
+  z-index: -1;
+}
+.BgContact{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit:cover;
+  z-index: -1;
+}
+.navbarlogo{
+  width: 250px;
+  height: auto;
+}
+.logocontact{
+  width: 350px;
+  height: auto;
+}
+.logologin{
+  width: 200px;
+  height: auto;
+}
+.logocontactmobile{
+  width: 200px;
+  height: auto;
+}
+.btlearnmore{
+  transition: transform .2s;
+
+}
+.btlearnmore:active{
+  transform: scale(1.2);
+}
+
+.zoomlogo{
+  transition: transform .2s;
+}
+.zoomlogo:hover {
+  transform: scale(1.1);
+}
+.zoomlogo:active {
+  transform: scale(1.2);
+}
+
+.zoomlang{
+  transition: transform .2s;
+  -webkit-transition: transform .2s;
+  -moz-transition: transform .2s;
+  -ms-transition: transform .2s;
+  -o-transition: transform .2s;
+}
+.zoomlang:hover {
+  transform: scale(1.1);
+}
+.zoomlang:active {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+  transition: transform .2s; 
+  display: none;
+  position: absolute;
+  background-color: #989090;
+  border-radius: 8px;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+/* .lang2:active{
+  display: none;
+} */
+
+.dropdowncontent .lang2 {
+  color: black;
+  font-family: "Segoe UI";
+  padding: 12px 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dropdowncontent .lang2:hover {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.iconbutton{
+  position: absolute;
+  margin-top: 145px;
+  margin-right: 15px;
+}
+.iconprofile{
+  width: 30%;
+  max-width: 60%;
+  height: auto;
+}
+.iconcamera{
+width: 20px;
+height: auto;
+}
+.tabimgM{
+  width: 20px;
+  height: auto;
+}
+
+@media screen and (max-width: 600px){
+  .tabimgM{
+    width: 10px;
+    height: auto;
+  }
+}
+
+.bglogon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  object-position: center;
+}

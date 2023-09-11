@@ -1,0 +1,124 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+  transition: transform .2s; 
+  position: absolute;
+  background-color: #989090;
+  border-radius: 8px;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+
+.dropdowncontent .lang2 {
+  color: black;
+  font-family: "Segoe UI";
+  padding: 12px 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dropdowncontent .lang2:hover {
+  background-color: #f1f1f1;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.dropdowncontent .lang3 {
+  color: black;
+  font-family: "Segoe UI";
+  padding: 12px 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dropdowncontent .lang3:hover {
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+
+.bg {
+  position: relative;
+  top: 0; /* ตำแหน่งบนของพื้นหลังอยู่ที่ขอบบนของหน้าจอ */
+  left: 0; /* ตำแหน่งซ้ายของพื้นหลังอยู่ที่ขอบซ้ายของหน้าจอ */
+  width: 100%; /* กว้างของพื้นหลังครอบคลุมพื้นที่ทั้งหมดของหน้าจอ */
+  height: 100%; /* สูงของพื้นหลังครอบคลุมพื้นที่ทั้งหมดของหน้าจอ */
+  object-fit: cover; /* ปรับขนาดของภาพให้พอดีกับพื้นที่ของพื้นหลังและทำให้ภาพแสดงเต็มพื้นที่ */
+  z-index: -1; /* กำหนดให้พื้นหลังอยู่ที่ชั้นความสูงน้อยกว่าทุกส่วนอื่นๆ ในหน้าจอ */
+}
+
+
+.logo {
+  position: absolute; /* กำหนดให้โลโก้อยู่ในตำแหน่งแน่นอนบนหน้าจอ */
+  top: 50%; /* ย้ายโลโก้ไปอยู่ตรงกลางด้านบนของพื้นหลัง */
+  left: 50%; /* ย้ายโลโก้ไปอยู่ตรงกลางด้านซ้ายของพื้นหลัง */
+  transform: translate(-50%, -50%); /* แก้ไขตำแหน่งให้อยู่กึ่งกลางตามแนวนอนและแนวตั้ง */
+  width: 25%; /* กำหนดความกว้างของโลโก้ให้เป็น 40% ของพื้นที่ทั้งหมดที่ครอบโลโก้ */
+  height: auto; /* อนุญาตให้ความสูงของโลโก้ปรับขนาดอัตโนมัติตามอัตราส่วนของความกว้าง */
+}
+.image2{
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+.image2mobile{
+  width: 260px;
+  height: auto;
+}
+.imageopenid {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: scale-down;
+  padding-right: 22px;
+}
+.imageopenidmobile {
+  width: 260px;
+  height: auto;
+  padding-top: 15px;
+}
+
+.footerlogo{
+  max-width: 300px;
+  width: 70%;
+  height: auto;
+}
+.containerfooter {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  z-index: 1;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+}
+.changeuser{
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 550px) {
+  .footerlogo{
+    max-width: 150px;
+    width: 70%;
+    height: auto;
+  }
+}

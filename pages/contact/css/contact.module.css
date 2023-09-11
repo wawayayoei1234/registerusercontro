@@ -1,0 +1,96 @@
+.btcontact {
+    height: 100px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI";
+    font-size: 26px;
+    cursor: pointer;
+    text-transform: uppercase;
+    will-change: transform;
+    color: #fff;
+  }
+  
+  .btcontact::before,
+  .btcontact::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    background-color: #fff;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+}
+  
+  .btcontact::before {
+    width: 2px;
+    height: 100px;
+    box-shadow: 298px 0 #fff;
+  }
+  
+  .btcontact::after {
+    height: 2px;
+    width: 300px;
+    box-shadow: 0 98px #fff;
+  }
+  
+  .btcontact:hover::before {
+    left: -5px;
+    box-shadow: 306px 0 #fff;
+  }
+  
+ .btcontact:hover::after {
+    top: -6px;
+    box-shadow: 0 109px #fff;
+  }
+
+
+  
+  .btcontactmobile {
+    height: 65px;
+    width: 220px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI";
+    font-size: 26px;
+    cursor: pointer;
+    text-transform: uppercase;
+    will-change: transform;
+    color: #fff;
+  }
+  
+  .btcontactmobile::before,
+  .btcontactmobile::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    background-color: #fff;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+}
+  
+  .btcontactmobile::before {
+    width: 2px;
+    height: 60px;
+    box-shadow: 218px 0 #fff;
+  }
+  
+  .btcontactmobile::after {
+    height: 2px;
+    width: 220px;
+    box-shadow: 0 60px #fff;
+  }
+  
